@@ -99,6 +99,6 @@ contract ERC20 {
 
 contract TokenA is ERC20 {
     constructor() ERC20("TokenA", "TKA") {
-        _mint(msg.sender, 100 * 10**18); // Создаем 100 токенов A и отправляем их на кошелек создателя контракта
+        _mint(msg.sender, 100 * 10**18);
     }
 }
